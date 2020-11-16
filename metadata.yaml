@@ -1,5 +1,14 @@
 homepage: "https://www.raptorservices.com"
 documentation: "https://support.raptorsmartadvisor.com"
 versions:
+  # Latest version
+  - sha: fc18501717662eec1b9e14a3fb38b72c51508069
+    changeNotes: |2
+      Added input fields for Raptor specific implementation in datalayer
+  # Older versions
   - sha: e06272fd7c99cabe9a8788f52de7bb52149df2f3
     changeNotes: Initial release.
+
+
+
+

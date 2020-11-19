@@ -46,7 +46,9 @@ Script template for Google Tag manager. Should be put on all pages at the pagevi
 
 ### Extra fields needed in the datalayer
 
-#### ecommerce.categoryPath
+>NB: The fields can be placed anywhere in the datalayer. In these examples, we have placed them inside the ecommerce object
+
+#### categoryPath
 
 When tracking a product, we need to know the path from the top category level and down to the product category. We use the following syntax for this:
 
@@ -80,7 +82,7 @@ Example:
 
 
 
-#### ecommerce.basketContent, ecommerce.basketId & ecommerce.raptorModule
+#### basketContent, basketId & raptorModule
 When firing basket events (addToBasket and removeFromBasket and checkout), add the following parameters to the ecommerce object:
 
 
@@ -116,7 +118,7 @@ Example:
 }
 ```
 
-#### ecommerce.raptorModule
+#### raptorModule
 When clicking a raptor module on the website, add a variable containing the name of the clicked module
 
 Example:

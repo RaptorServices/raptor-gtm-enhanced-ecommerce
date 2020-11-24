@@ -3,12 +3,12 @@ documentation: "https://support.raptorsmartadvisor.com"
 versions:
   # Latest version
   - sha: 69d4e47719de716f4c8347f95d564d9947b1ec5b
-  - changeNotes: Added enabling conditions for some of the input fields
+    changeNotes: Added enabling conditions for some of the input fields
   # Older versions
   - sha: fc18501717662eec1b9e14a3fb38b72c51508069
-  - changeNotes: Added input fields for Raptor specific implementation in datalayer
+    changeNotes: Added input fields for Raptor specific implementation in datalayer
   - sha: e06272fd7c99cabe9a8788f52de7bb52149df2f3
-  - changeNotes: Initial release.
+    changeNotes: Initial release.
 
 
 

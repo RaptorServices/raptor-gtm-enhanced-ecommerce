@@ -6,10 +6,9 @@ versions:
   - changeNotes: Added enabling conditions for some of the input fields
   # Older versions
   - sha: fc18501717662eec1b9e14a3fb38b72c51508069
-    changeNotes: |2
-      Added input fields for Raptor specific implementation in datalayer
+  - changeNotes: Added input fields for Raptor specific implementation in datalayer
   - sha: e06272fd7c99cabe9a8788f52de7bb52149df2f3
-    changeNotes: Initial release.
+  - changeNotes: Initial release.
 
 
 

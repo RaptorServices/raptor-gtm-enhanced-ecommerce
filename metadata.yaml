@@ -2,9 +2,11 @@ homepage: "https://www.raptorservices.com"
 documentation: "https://support.raptorsmartadvisor.com"
 versions:
   # Latest version
+  - sha: e1e19750e51e2aba129486ca7b6e60bf2d6489c7
+    changeNotes: Fixed price formatting and added product category tracking
+  # Older versions
   - sha: 69d4e47719de716f4c8347f95d564d9947b1ec5b
     changeNotes: Added enabling conditions for some of the input fields
-  # Older versions
   - sha: fc18501717662eec1b9e14a3fb38b72c51508069
     changeNotes: Added input fields for Raptor specific implementation in datalayer
   - sha: e06272fd7c99cabe9a8788f52de7bb52149df2f3

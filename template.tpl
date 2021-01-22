@@ -197,11 +197,7 @@ switch(data.eventType){
   default:
     break;
   
-}
-
-
-
-}
+}}
 
 data.gtmOnSuccess();
 
@@ -214,7 +210,7 @@ function productDetailEvent()
        
   if(product)
   {
-      callInWindow('raptor.push','trackEvent',{p1:'visit',p2:product.id,p3:product.name,p4:data.categoryPath,p8:product.brand,p12:product.price});
+      callInWindow('raptor.push','trackEvent',{p1:'visit',p2:product.id,p3:product.name,p4:data.categoryPath,p8:product.brand,p12:product.price,p16:product.category});
     
   }
 }
@@ -253,9 +249,13 @@ function purchaseEvent(){
   if(products)
   {
     products.forEach(function(product){
-    
+      
+      var priceString = product.price;
+      if(priceString)
+        priceString = priceString.replace(',','.');
+      
       var quantity = makeNumber(product.quantity);
-      var price = makeNumber(product.price);
+      var price = makeNumber(priceString);
  
       if(quantity)
       {
